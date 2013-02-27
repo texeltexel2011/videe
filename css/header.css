@@ -1,0 +1,142 @@
+/*HEADER*/
+#header{
+	max-width:100%;
+	min-width:960px;
+	height:30px;
+	border-bottom:5px;
+	border-width:5px;
+	border-bottom-style:solid;
+	border-color:#1984cc;
+	}
+		#logo{
+			padding:4px 0px 0px 8px;
+			width:70px;
+			margin:0px;
+			float:left;
+			font-size:20px;
+			font-family:helvetica;
+			font-weight:bold;
+			color: #FFF;
+		}
+		#top-menu{
+			min-width:340px;
+			width:auto;
+			float:left;
+			list-style:none;
+			color:white;
+			font-size:14px;
+			font-weight:bold;
+			margin:0;
+			padding:0;
+		}
+			#top-menu li{
+				margin:0 5px 0 0;
+				height:25px;
+				float:left;
+				cursor:pointer;
+				padding:8px 4px 0px 7px;
+				}
+		#search{
+			margin-left:0px;
+			padding:4px 10px 5px 10px;
+			float:left;
+			width:auto;
+			height:25px;
+			}
+			#input-text{
+				width:170px;
+				height:18px;
+				font-size:12px;
+				color:#999;
+				padding:2px 22px 2px 2px;
+				border:1px; 
+				border-style:solid; 
+				border-color:#B8B8B8;
+				background:url(img/search-icon.png) center right no-repeat;
+				background-color:white;
+				border-radius:3px;
+				}
+		#user-top{
+			margin:0px;
+			float:right;
+			width:220px;
+			height:30px;
+			padding-left:5px;
+			cursor:pointer;
+			}
+			#user-avatar{
+				float:left;
+				width:24px;
+				height:24px;
+				margin:3px;
+				border:1px solid #e8e8e8;
+				border-radius:2px;
+				background:url(../img/avatar-01.jpg);
+				}
+			#user-name{
+				margin:8px;
+				float:left;
+				width:155px;
+				height:20px;
+				white-space:nowrap;
+				overflow:hidden;
+				text-overflow:ellipsis;
+				color:white;
+				font-weight:bold;
+				font-size:14px;
+				}
+		#settings{
+			margin:0px;
+			float:right;
+			width:45px;
+			height:30px;
+			background:url(/img/settings.png) no-repeat;
+			}
+		#settings:hover{
+			margin:0px;
+			float:right;
+			width:45px;
+			height:30px;
+			background:#1984cc url(img/settings.png) no-repeat;
+			cursor:pointer;
+			}
+			
+			
+/*POP MESSAGES*/
+#settings-pop{
+	position:relative;
+	display:none;
+	width:160px;
+	height:90px;
+	margin-top:28px;
+	float:right;
+	}
+.triangulo{
+	width: 0; 
+	height: 0; 
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-bottom: 7px solid white;
+	margin-right:14px;
+	}	
+#message{
+	border:1px #CCC solid;
+	border-top:none;
+	border-right:none;
+	background-color:white;
+	padding:10px 15px 10px 10px;
+	}
+	#message ul{}
+	#message ul li{
+			padding:4px 7px 4px 7px;
+			list-style:none;
+			color:#1984cc;
+			/*font-weight:bold;*/
+			font-size:14px;
+			}
+	#message ul li:hover{
+			padding:4px 7px 4px 7px;
+			list-style:none;
+			color:#FFF;
+			background:#0099FF;
+			}

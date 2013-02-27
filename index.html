@@ -1,0 +1,155 @@
+<!DOCTYPE html5>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+<link rel="stylesheet" type="text/css" href="css/header.css"/>
+<link rel="stylesheet" type="text/css" href="css/sidebar.css"/>
+<link rel="stylesheet" type="text/css" href="css/main.css"/>
+<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+</head>
+
+
+
+
+<body class="margin font">
+
+	<div id="header" class="margin color1"> <!--Header*/-->
+		<ul id="logo">VIDEE</ul>
+		<ul id="top-menu">
+			<li class="color2" id="home">Home</li>
+			<li class="color2" id="profile">Perfil</li>
+			<li class="color2" id="messages">Mensajes</li>
+		</ul>
+		<form id="search" class="color2">
+			<input id="input-text" type="text" placeholder="busqueda" />
+		</form>
+		<div id="settings" onClick="abrirpop()" align="right">
+			<div id="settings-pop">
+				<div class="triangulo"></div>
+				<div id="message">
+					<ul class="margin">
+						<li><a href="#">Configuraciones</a></li>
+						<li><a href="#">Ayuda</a></li>
+						<li><a href="#">Salir</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="user-top" class="color2">
+			<div id="user-avatar"></div>
+			<div id="user-name">Arman Shahinyan</div>
+		</div>
+	</div>
+	
+	
+	
+	
+	<div id="main-content"> <!--Contains Sidebar and Main Content and Footer-->
+		<div id="sidebar">
+			<div id="sidebar-stuff">
+				<div id="menus">
+					<div class="menu-title">General</div>
+						<div class="submenu submenu-selected" onclick="location.href='index.html';">
+							<div class="submenu-icon" style="background:url(img/icons.png) -84px -21px no-repeat;"></div>
+							<div class="submenu-name"><a>Home</a></div>
+						</div>
+						<div class="submenu" onclick="location.href='profile.html';">
+							<div class="submenu-icon" style="background:url(img/icons.png) -84px -42px no-repeat;"></div>
+							<div class="submenu-name"><a>Profile</a></div>
+						</div>
+						<div class="submenu" onclick="location.href='index.html';">
+							<div class="submenu-icon" style="background:url(img/icons.png) 0px -22px no-repeat;"></div>
+							<div class="submenu-name"><a>Settings</a></div>
+						</div>
+					<div class="menu-title">Ads</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		
+		<div id="main">
+			<div id="welcome-message">
+			</div>
+			<div id="main-content-holder">
+				<div id="main">
+					<div id="main">
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+
+
+
+
+
+		
+	</div>
+	
+	
+	
+	
+	
+	<div id="footer" class="font"> <!--Obviously the footer-->
+	
+		<div id="copyright">"Videe" versión Beta ©2012 Arman Shahinyan - Todos los derechos reservados.</div>
+		<div id="links">
+			<ul>
+				<li><a href="file:///C:/Documents%20and%20Settings/texel/Escritorio/Videe/index.html">Información</a></li>
+				<li><a href="http://www.google.com">Contacto</a></li>
+				<li><a href="http://www.google.com">Blog</a></li>
+			</ul>
+		</div>
+	</div> 
+
+
+</body>
+
+
+
+
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="scripts.js"></script>
+<script>
+	
+	function abrirpop(){
+		if(  $("#settings-pop").css("display") == "none"){
+					$("#settings-pop").css('display','block');
+				}
+				else{
+					$("#settings-pop").css('display','none');
+				};
+		$("#settings-pop").mouseleave(function(){$("#settings-pop").css('display','none');});
+	};
+	
+	$(window).resize(function(){
+			if( $(window).width() >= 1100 )
+				{
+				$("#user-top").css('width','auto');
+				$("#user-name").css('width','auto');
+				}
+			else{
+				$("#user-top").css('width','215px');
+				$("#user-name").css('width','155px');
+				};
+				
+			/*if( $(window).width() <= 960 )
+				{
+				$("#settings-pop").css('right','');
+				$("#settings-pop").css('left','810px');
+				}
+			else{
+				$("#settings-pop").css('right','0px');
+				$("#settings-pop").css('left','');
+				}*/
+		});
+	$("#sidebar").height($("#main-content").height());
+
+</script>
+
+</html>

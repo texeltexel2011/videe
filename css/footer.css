@@ -1,0 +1,28 @@
+/*FOOTER*/
+#footer{
+	margin:10px 10px 10px 10px;
+	min-width:960px;
+	height:45px;
+	font:14px bold;
+	color:#AAA;
+	font-family:inherit;
+	}
+	
+	
+	#copyright{
+		float:left;
+		}			
+	#links{
+		float:right;
+		margin-right:30px;
+		}				
+	#links ul{
+		float:left;
+		margin:0px;
+		}			
+	#links ul li{
+		margin:0px 5px 0px 5px;
+		list-style:none;
+		float:left;
+		text-decoration:none;
+		}

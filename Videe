@@ -1,0 +1,31 @@
+<NotepadPlus>
+    <Project name="Videe - UI">
+        <Folder name="css">
+            <File name="css\header.css" />
+            <File name="css\sidebar.css" />
+            <File name="css\main.css" />
+            <File name="css\footer.css" />
+            <File name="css\styles.css" />
+            <File name="css\home.css" />
+        </Folder>
+        <Folder name="img">
+            <File name="img\avatar-01.jpg" />
+            <File name="img\icons.png" />
+            <File name="img\prueba-triangulo.png" />
+            <File name="img\search-icon.png" />
+            <File name="img\settings.png" />
+            <File name="img\side-back.png" />
+            <File name="img\side-back1.png" />
+            <File name="img\side-messages.png" />
+            <File name="img\side-profile.png" />
+            <File name="img\Thumbs.db" />
+        </Folder>
+        <File name="index.html" />
+        <File name="home.html" />
+        <File name="profile.html" />
+        <File name="jquery.js" />
+        <File name="scripts.js" />
+    </Project>
+    <Project name="Videe - Backend" />
+    <Project name="Videe - Admin Backend" />
+</NotepadPlus>

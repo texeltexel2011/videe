@@ -1,0 +1,16 @@
+/*MAIN*/
+#main{
+	margin-left:200px;
+	width:auto;
+	min-height:inherit;
+	}
+	#welcome-message{
+		width:100%;
+		height:100px;
+		background-color:#ededed;
+		margin-left:1px;
+		}
+	#main-content-holder{
+		margin:0px;
+		padding:15px;
+		}

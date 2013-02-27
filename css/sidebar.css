@@ -1,0 +1,95 @@
+/*Main SIDEBAR*/
+#main-content{
+max-width:100%;
+min-width:960px;
+border-bottom:1px solid #CCC;
+min-height:500px;
+
+}				
+	#sidebar{
+		width:200px;
+		height:inherit;
+		background: url(img/side-back1.png);
+		border-right:1px solid #CCC;
+		position:absolute;
+		}
+		#sidebar-stuff{
+			margin:10px auto 10px auto;
+			width:auto;
+			height:auto;
+			}
+				#menus{
+					padding-left:10px;
+					}
+				.menu-title{
+					width:auto;
+					height:22px;
+					color:#555;
+					text-shadow:0px 1px 1px white;
+					font-size:16px;
+					margin:20px auto 0px 0px;
+					}
+				.submenu{
+					width:181px;
+					margin-left:-10px;
+					padding:1px 0px 1px 20px;
+					height:20px;
+					opacity:0.7;
+					}
+				.submenu:hover{
+					opacity:1;
+					height:20px;
+					/*background:#E6E6E6;*/
+					cursor:pointer;
+					color:#1984cc;
+					}
+				.submenu-selected{
+					/*background:#F5F5F5 url(img/prueba-triangulo.png) no-repeat 190px 0px;*/
+					z-index:10000;
+					opacity:1;
+					}
+				/*.submenu-selected:hover{
+					background:#E0E0E0 url(img/prueba-triangulo.png) no-repeat 190px 0px;
+					z-index:10000;
+					opacity:1;
+					}*/
+				.submenu-icon{
+					float:left;
+					height:20px;
+					width:25px;
+					margin:auto;
+					}
+				.submenu-name{
+					font-size:14px;
+					padding-top:2px;
+					}
+				#profile-stuff{
+					/*height:auto;*/
+					/*width:180px;*/
+					/*margin:10px;*/
+					}
+				#container{
+					height:auto;
+					width:200px;
+					}
+					#profile-image-container{
+						width:200px;
+						height:auto;
+						border-top:1px solid #E6E6E6;
+						border-bottom:1px solid #E6E6E6;
+						}
+					#profile-image-container:hover{
+						border-top:1px solid #BBB;
+						border-bottom:1px solid #BBB;
+						}
+					.profile-image{
+						width:200px;
+						height:230px;
+						background:url(http://bucefalo.com.mx/wp-content/uploads/2011/02/avatar-mario.jpg);
+						}
+					#profile-info{
+					
+						}
+					#profile-links{
+					
+						}

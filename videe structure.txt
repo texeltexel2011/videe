@@ -1,0 +1,52 @@
+1.Login
+ 1.1.Login(www.videe.com or page if session on.)
+   1.1.1.Usuario y Pass
+   1.1.2.Recordar usuario
+   1.1.3.No tienes usuario?(1.2)
+   1.1.4,currar el fondo, estilos colores, etc
+ 1.2.Registro
+   1.2.1.Formulario
+   1.2.2.Aceptar Términos
+   1.2.3.Confirmación email
+   1.2.4.Pantalla Bienvenida(en Home con información sobre primer uso)
+ 1.3.Info(General)
+ 1.4.Languages
+2.Home
+ 2.1.Last friend ups
+ 2.2.Last Apps ups
+ 2.3.Recommended Apps
+ 2.4.AppsCenter
+ 2.5.
+3.Profile
+ 3.1.Wall
+ 3.2.Info
+ 3.3.Fotos
+ 3.4.Friends
+ 3.5.Settings()
+ 3.6.Apps(in use)
+ 3.7.
+4.Messages
+ 4.1.Inbox
+ 4.2.Outbox
+ 4.3.Spam
+ 4.4.Nuevo(Mensaje)
+ -4.5.Favoritos
+5.Settings
+ 5.1.General
+ 5.2.Profile
+ 5.3.Messages
+ -5.4.Apps
+6.Publicidad
+ -6.1.FrontEnd
+ -6.2.BackEnd
+
+
+*chat
+*Ads
+*Fotos(face)
+*warnings
+*Dialogbox
+*Search
+
+
+* = omnipresent (all pages)

@@ -1,0 +1,21 @@
+/*CSS styles*/
+.margin{
+	margin:0;
+	padding:0;
+	}
+a {
+	text-decoration:none;
+	color:inherit;
+	}
+.font{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
+	}
+.color1{
+	background:#0099FF;
+	}
+
+/*para este cambiar también el settings:hover y border-color de #header*/
+.color2:hover{
+	background:#1984cc;
+	}
